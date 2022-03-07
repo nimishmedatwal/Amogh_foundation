@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cairo:wght@300;400;700&display=swap');
+body{
+    margin :0px;
+    background-image: url("./assests/background.webp");
+    background-size: cover;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    /* background-color: #333; */
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 2%;
+
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+
+    color: red;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+
+    margin-left:65% ;
+  }
+.containervision{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4% 14% 8% 14%;
+    border-width: 4px;
+    border-color: #000000;
+    border-style:dashed;
+    padding: 12px 12px 12px 12px;   
+}
+.imgvision{
+    /* width: 50%; */
+    height: 70%;
+
+}.vision_text{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    padding-right: 4%;
+}
