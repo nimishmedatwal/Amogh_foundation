@@ -5,14 +5,14 @@ body{
     background-size: cover;
 }
 /* Add a black background color to the top navigation */
-.topnav {
+.navbar {
     /* background-color: #333; */
     overflow: hidden;
     background-color: #3636365e;
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .navbar a {
     float: left;
     color: #000000;
     text-align: center;
@@ -25,7 +25,7 @@ body{
  }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
+  .navbar a:hover {
 
     color: rgb(255, 255, 255);
     border-bottom: #000000;
@@ -37,9 +37,9 @@ body{
   }
   
   /* Add a color to the active/current link */
-  .topnav a.active {
+  .navbar a.active {
 
-    margin-left:65% ;
+    margin-left:58% ;
   }
 
 
@@ -101,3 +101,9 @@ body{
     display: none;
     transition: background-color 0.6s ease;
   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
