@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cairo:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 body{
     margin :0px;
-    background-image: url("./assests/background.webp");
+    background-image: url("assests/background.webp") ;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
 }
 /* Add a black background color to the top navigation */
 .navbar {
@@ -21,10 +23,10 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 2%;
     padding-bottom: 10px;
-    font-family: 'Kalam';
+    font-family: 'Poppins', sans-serif;
  }
   
   /* Change the color of links on hover */
@@ -42,8 +44,14 @@ body{
   /* Add a color to the active/current link */
   .navbar a.active {
 
-    margin-left:58% ;
+    margin-left:42% ;
   }
+  .img-log{
+border-bottom: none;
+  }
+.img-log :hover{
+  border-bottom: none !important;
+}
 
 .containervision{
     display: flex;
@@ -57,8 +65,7 @@ body{
     padding: 12px 12px 12px 12px;   
 }
 /* .imgvision{
-    width: 50%;
-    height: 40%;
+    width: 90vw;
 } */
 .vision_text{
     font-family: 'Balsamiq Sans', cursive;
@@ -96,9 +103,16 @@ body{
     display: none;
     transition: background-color 0.6s ease;
   }
+  #main{
+    height: 100vh;
+  }
+  .slideshow-container{
+    margin-top: 5%;
+  }
   .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+
   }
+
   
