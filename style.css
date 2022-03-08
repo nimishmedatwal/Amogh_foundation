@@ -8,8 +8,11 @@ body{
 .navbar {
     /* background-color: #333; */
     overflow: hidden;
-    background-color: #3636365e;
+    background-color: #ffffffee;
+    box-shadow: 0px 3px 12px 1px rgb(65 65 65 / 49%);
+
   }
+
   
   /* Style the links inside the navigation bar */
   .navbar a {
@@ -27,7 +30,7 @@ body{
   /* Change the color of links on hover */
   .navbar a:hover {
 
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     border-bottom: #000000;
     padding-bottom: 7px;
     border-bottom-style: solid;

@@ -1,7 +1,4 @@
 window.onscroll = function() {myFunction()};
-
-
-
 var navbar = document.getElementById("navbar");
 
 // Get the offset position of the navbar
