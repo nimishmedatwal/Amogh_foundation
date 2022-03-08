@@ -13,7 +13,7 @@ body{
 
   }
 
-  
+
   /* Style the links inside the navigation bar */
   .navbar a {
     float: left;
@@ -44,14 +44,6 @@ body{
 
     margin-left:58% ;
   }
-
-
-.amoghimg{
-    width: 69%;
-}
-.amogh{
-    margin-bottom: 9%;
-}
 
 .containervision{
     display: flex;
