@@ -27,7 +27,7 @@ body{
   /* Change the color of links on hover */
   .topnav a:hover {
 
-    color: red;
+    color: rgb(255, 255, 255);
     border-bottom: #000000;
     padding-bottom: 7px;
     border-bottom-style: solid;
@@ -41,6 +41,15 @@ body{
 
     margin-left:65% ;
   }
+
+
+.amoghimg{
+    width: 69%;
+}
+.amogh{
+    margin-bottom: 9%;
+}
+
 .containervision{
     display: flex;
     align-items: center;
