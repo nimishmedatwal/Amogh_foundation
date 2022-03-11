@@ -108,5 +108,16 @@ border-bottom: none;
     top: 0;
 
   }
+#vision{
+  height:80vh;
+
+}
+.img_vision{
+  display: flex;
+  /* margin-top: 9%; */
+  }
+.mission{
+  flex :1;
+}
 
   
