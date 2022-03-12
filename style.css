@@ -172,6 +172,7 @@ border-bottom: none;
 }
 #DonateNow{
   background-image: url("./assests/donateimg.jpg");
+  background-size: cover;
   height: 100vh;
 }
 .donatenow {
@@ -182,6 +183,7 @@ border-bottom: none;
   background-color: rgba(42, 160, 77, 0.767);
   padding: 40px 20px 40px 20px;
 }
+
 .donatenow a{
   display: inline-block;
   text-decoration: none;
@@ -192,6 +194,21 @@ border-bottom: none;
   background-color: #3d8d41;
 }
 .donatenow a:hover{
-  background-color: #000000;
-  
+  background-color: #000000; 
+  transition-duration: 0.5s;
+}
+#Donate{
+  display: flex;
+  width: 100vw;
+
+}
+.qrcode{
+  flex:1;
+}
+.form{
+  flex:1;
+}
+.form2{
+  margin-left: 5%;
+
 }
