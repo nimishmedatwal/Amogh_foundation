@@ -249,10 +249,11 @@ border-bottom: none;
 
 #contactus{
   background-color: #131313;
-  height: 50vh;
+  height: 60vh;
 }
 .rid {
   color: #afaeae;
   margin-left: 4%;
-  translate-x: -20px;
+  
+
 }
