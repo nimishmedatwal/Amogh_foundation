@@ -30,6 +30,9 @@ body{
 
 
 /* Style the links inside the navigation bar */
+.navbar{
+  height: 12vh;
+}
 .navbar a {
   float: left;
   color: #000000;
@@ -38,20 +41,23 @@ body{
   text-decoration: none;
   font-size: 15px;
   margin-right: 2%;
+  padding-top: 2%;
   /* margin-top: 10px; */
   padding-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
 
-  color: rgb(255, 0, 0);
-  border-bottom: #000000;
-  padding-bottom: 7px;
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
-  transition: border-bottom 0.1s ease;
+  color: rgb(255, 168, 55);
+
+  /* border-bottom: #000000; */
+  /* padding-bottom: 7px; */
+  /* border-bottom-style: solid; */
+  /* border-bottom-width: 3px; */
+  /* transition: border-bottom 0.1s ease; */
 
 }
 
@@ -62,10 +68,9 @@ body{
 }
 .img-log{
 border-bottom: none;
-  }
-.img-log :hover{
-  border-bottom: none !important;
+
 }
+
 
 
 .imgvision{
