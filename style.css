@@ -3,6 +3,7 @@
 html{
   overflow: scroll;
   overflow-x: hidden;
+  user-select: none;
 }
 ::-webkit-scrollbar {
   width: 0;  /* Remove scrollbar space */
@@ -248,12 +249,30 @@ border-bottom: none;
 }
 
 #contactus{
-  background-color: #131313;
-  height: 60vh;
+  background-color: #1f1f1f;
+  height: 55vh;
+  display: flex;
 }
 .rid {
   color: #afaeae;
   margin-left: 4%;
   padding-top:4%;
-
+  flex: 1;
+  font-size: 13px;
+}
+.contact{
+  padding-right: 4%;
+  padding-top: 2%;
+}
+.details{
+  color: #afaeae;
+  font-size: medium;
+}
+.num{
+  color: #ffffff;
+  font-size: small;
+}
+.last{
+  padding-top: 5%;
+  padding-left: 57%;
 }
