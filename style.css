@@ -246,3 +246,13 @@ border-bottom: none;
 .form2 button:hover{
   background-color: #afaeae;
 }
+
+#contactus{
+  background-color: #131313;
+  height: 50vh;
+}
+.rid {
+  color: #afaeae;
+  margin-left: 4%;
+  translate-x: -20px;
+}
