@@ -200,15 +200,49 @@ border-bottom: none;
 #Donate{
   display: flex;
   width: 100vw;
+  background-image: url("./assests/form.jpg");
+  background-size: cover;
+  /* background-color: rgba(187, 187, 187, 0.281); */
 
 }
 .qrcode{
   flex:1;
 }
+.qrcode img{
+  margin-top: 38%;
+}
+.fform{
+  font-size: x-large;
+  color: #0088f7;
+}
 .form{
   flex:1;
+  background-color: rgba(255, 255, 255, 0.747);
+  margin : 4% 4% 4% 4% ;
+  padding : 30px 30px 30px 30px;
+  border-radius: 15px;
 }
 .form2{
   margin-left: 4.9%;
-
+}
+.form2 label{
+  font-size: larger; 
+  margin-right: 20px;
+}
+.form2 p{
+  font-size: larger;
+}
+ .form input{
+  padding : 6px 6px 6px 6px;
+  border-radius: 10px; 
+ }
+.form2 button {
+  padding:6px 12px 6px 12px; 
+  color:#000000;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.form2 button:hover{
+  background-color: #afaeae;
 }

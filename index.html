@@ -106,19 +106,39 @@
     
     <section id="Donate">
         <div class="qrcode">
-            <video src="./assests/qr code.mp4" autoplay loop width="683px"></video>
+            <center>
+                <img src="./assests/qrcode.PNG" alt="" width="60%">
+            </center>
         </div>
         <div class="form">
+            <p class="fform">HELP US TRANSFORM A CHILD’S LIFE</p>
             <form action="#home" method="POST" class="form2" data-netlify="true">
-    
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                <br>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name" required>
+                <p></p>
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name " required>
+                <p></p>
+                <label for="email">Email Id</label>
+                <input type="email"  id="email" name="email" placeholder="Enter your email address" required>
+                <p></p>
+                <label for="phno">Phone Number</label>
+                <input type="number" id="phno" name="phno" placeholder="Enter your phone number" required>
+                <p></p>
+                <label for="receipt"> Do you want a deductible receipt ?</label>
+                <p></p>
+                <input type="radio" name="receipt" >Yes
+                <input type="radio" name="receipt"> No
+                <br>
+                <p>If you want a deductible receipt enter your PAN</p>
+                <label for="pan" style="font-size: medium;">PAN (Permanent account Number) :</label> 
+                <input type="text" id="pan" name="pan" placeholder="Enter your PAN " required>
+                <br>
+                <br>
                 <button href="#home" type="submit">Donate</button>
             </form>
         </div>
     </section>
+    <section id="contactus"></section>
 </body>
 </html>
