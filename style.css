@@ -47,20 +47,16 @@ body{
   font-family: 'Poppins', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
-
+.dn{
+  background-color: #4ab750;
+  border-radius: 15px;
+}
 /* Change the color of links on hover */
 .navbar a:hover {
 
   color: rgb(255, 168, 55);
 
-  /* border-bottom: #000000; */
-  /* padding-bottom: 7px; */
-  /* border-bottom-style: solid; */
-  /* border-bottom-width: 3px; */
-  /* transition: border-bottom 0.1s ease; */
-
 }
-
 /* Add a color to the active/current link */
 .navbar a.active {
 
@@ -71,15 +67,13 @@ border-bottom: none;
 
 }
 
-
-
 .imgvision{
 
   width: 100vw;
   height: 88vh;
   margin-top: -4.9%;
-
 }
+
 .vision_text{
   font-family: 'Balsamiq Sans', cursive;
   font-family: 'Cairo', sans-serif;
