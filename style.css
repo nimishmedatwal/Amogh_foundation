@@ -324,4 +324,24 @@ border-bottom: none;
   .statistics{
     display: block;
   }
+  #Donate{
+    display: block;
+  }
+  .form2{
+    margin-left:8%
+  }
+  #contactus{
+    height: 70vh;
+    display: block;
+  }
+  .last{
+    visibility: hidden;
+  }
+  .contact{
+    padding-left: 12px;
+  }
+  .form{
+    
+    margin: 4% 4% 0% 4%;
+  }
 }
