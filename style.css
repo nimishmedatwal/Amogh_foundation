@@ -235,11 +235,49 @@ border-bottom: none;
   /* background-color: rgba(187, 187, 187, 0.281); */
 
 }
+#team{
+  background: url("./assests/ourteam.jpg");
+  /* height: 100vh; */
+  background-size: cover;
+}
+.teamheading{
+  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Cairo', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  padding-top: 2%;
+}
+.tt{
+  display: flex;
+}
+.teammember{
+  display: flex;
+  padding : 5% 5% 1% 5%;
+}
+.teammember img{
+  height: 300px;
+  padding-right: 5%;
+  
+}
+.teammember p{
+  margin-right: 5%;
+}
 .qrcode{
   flex:1;
 }
 .qrcode img{
   margin-top: 38%;
+}
+.qrcode p{
+  margin : 9% 6% 4% 6%;
+  padding : 20px 20px 20px 20px;
+  border-radius:15px ;
+  /* border-style: solid; */
+  /* border-color: #00005c; */
+  color: #ffffff;
+  /* background: linear-gradient(90deg, rgba(138,237,246,1) 0%, rgba(96, 131, 245, 0.705) 100%); */
+  background-color: #15172b;
+  font-size: large;
 }
 .form{
   flex:1;
