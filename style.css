@@ -177,7 +177,24 @@ border-bottom: none;
   margin-bottom: 7%;
 
 }
-
+#journey{
+  background-image: url("./assests/our-journeybackground.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.jcontainer{
+  display: flex;
+}
+.jimage{
+  margin : 8% 4% 4% 4%;
+  border-radius: 15px;
+}
+.jtext{
+  margin: 8% 12% 6% 6%;
+  background-color: #61a0d483;
+  padding : 4% 4% 4% 4%;
+  border-radius: 15px;
+}
 .s1{
   flex :1;
 
