@@ -66,6 +66,20 @@ body{
 border-bottom: none;
 
 }
+.overviewtext{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  margin-right: 50%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  text-align: left;
+  font-size: larger;
+  background: rgb(143,64,159);
+  background: linear-gradient(90deg, rgba(143, 64, 159, 0.836) 0%, rgba(104, 158, 240, 0.836) 100%);
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px;
+}
 
 .imgvision{
 
@@ -115,6 +129,8 @@ border-bottom: none;
 } */
 .slideshow-container{
   margin-top: 5%;
+  position: relative; 
+  color: white;
 }
 .sticky {
   position: fixed;
@@ -306,7 +322,7 @@ border-bottom: none;
     /* text-align:justify; */
   }
   #DonateNow{
-    height: 70vh;
+    height: 140vh;
   }
   .donatenow{
     margin :10% 13% 10% 13%;
@@ -331,11 +347,27 @@ border-bottom: none;
   .last{
     visibility: hidden;
   }
-  .contact{
+  /* .contact{
     padding-left: 12px;
-  }
+  } */
   .form{
     
     margin: 4% 4% 0% 4%;
   }
+  .rid {
+    height: 30vh;
+  }
+  /* .contact{
+    height: 0vh;
+  }
+  .details{
+    visibility: hidden;
+    height: 0vh;
+
+  }
+  .num{
+    visibility: hidden;
+    height: 0px;
+  } */
+
 }
