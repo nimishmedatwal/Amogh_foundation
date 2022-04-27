@@ -185,8 +185,9 @@ border-bottom: none;
 .jcontainer{
   display: flex;
 }
-.jimage{
-  margin : 8% 4% 4% 4%;
+.jimage img{
+  margin : 50% 10% 40% 15%;
+  height: 350px;
   /* border-radius: 15px; */
   /* border: 2px;
   border-style: solid; */
