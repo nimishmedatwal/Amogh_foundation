@@ -74,7 +74,7 @@ body{
 }
 .navbar a.active {
 
-  margin-left:42% ;
+  margin-left:56vw ;
 }
 .img-log{
   border-bottom: none;
@@ -281,22 +281,18 @@ body{
 .tt{
   display: flex;
 }
-.teammember{
-  display: flex;
-  margin : 5% 5% 1% 5%;
-  padding: 5% 5% 5% 5%;
-  border-radius: 15px;
-  background-color: #54549881;
-  color: #ffffff;
+.mySlides1{
+  width: 60vw;
+  display: none;
+}
 
-}
-.teammember img{
-  height: 300px;
-  padding-right: 5%;
-  
-}
-.teammember p{
-  margin-right: 5%;
+.b1{
+  padding: 10px 20px 10px 20px;
+  background-color:#ffffff; 
+  text-decoration: none;
+  border: solid;
+  color: #000000;
+  margin-left: 3%;
 }
 .qrcode{
   flex:1;
@@ -380,6 +376,7 @@ label span {
 /* label span:hover {
   background-color: #d6d6e5;
 } */
+
 label span:before {
   display: flex;
   flex-shrink: 0;
