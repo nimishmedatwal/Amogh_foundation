@@ -105,7 +105,7 @@ body{
 .imgvision{
 
   width: 100vw;
-  height: 88vh;
+  height: 91vh;
   margin-top: -4.9%;
 }
 
@@ -290,8 +290,10 @@ body{
   padding: 10px 20px 10px 20px;
   background-color:#ffffff; 
   text-decoration: none;
-  border: solid;
-  color: #000000;
+  border: none;
+  /* border: solid; */
+  border-radius: 16px;
+  /* color: #000000; */
   margin-left: 3%;
 }
 .qrcode{
@@ -468,7 +470,7 @@ label span:before {
 }
 #contactus{
   background-color: #1f1f1f;
-  height: 55vh;
+  height: 50vh;
   display: flex;
 }
 .rid {
