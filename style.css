@@ -31,9 +31,9 @@ body{
 
 /* Style the links inside the navigation bar */
 .navbar{
-  height: 12vh;
+  height: 9vh;
 }
-.navbar a {
+#pp {
   float: left;
   color: #000000;
   text-align: center;
@@ -41,44 +41,65 @@ body{
   text-decoration: none;
   font-size: 16px;
   margin-right: 2%;
-  padding-top: 2%;
+  padding-top: 1.2%;
   /* margin-top: 10px; */
   padding-bottom: 10px;
   font-family: 'Poppins', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
-.dn{
+#gg{
+  position: absolute ;
+  top: 13px;
+  text-decoration: none;
+  background-color: #00005c;
+  padding: 5px 15px 5px 15px;
+  color: #ffffff;
+  box-shadow: #eeff00 5px 5px;
+} 
+#tt{
+  text-decoration: none;
+  background-color:#eeff00 ;
+  padding: 5px 20px 5px 20px;
+  color: #000000;
+  box-shadow: #00005c 5px 5px;
+  font-size: larger;
+}
+.dn{  
   background-color: #4ab750;
   border-radius: 15px;
 }
-/* Change the color of links on hover */
-.navbar a:hover {
 
-  color: rgb(255, 168, 55);
-
+.navbar a :hover {
+  color: #eeff00;
 }
-/* Add a color to the active/current link */
 .navbar a.active {
 
   margin-left:42% ;
 }
 .img-log{
-border-bottom: none;
+  border-bottom: none;
+  position: absolute;
+  left :20px;
+  top: 12px;
 
 }
 .overviewtext{
   position: absolute;
   bottom: 8px;
   left: 16px;
-  margin-right: 50%;
+  margin-right: 55%;
   margin-bottom: 5%;
-  margin-left: 5%;
+  margin-left: 3%;
   text-align: left;
   font-size: larger;
-  background: rgb(143,64,159);
-  background: linear-gradient(90deg, rgba(143, 64, 159, 0.836) 0%, rgba(104, 158, 240, 0.836) 100%);
-  padding: 20px 20px 20px 20px;
-  border-radius: 15px;
+  background-color: #00005c;
+    padding: 20px 20px 20px 20px;
+  border-radius: 6px;
+}
+.heavy{
+  font-size: 200%;
+  color: #eeff00;
+  font-weight: bold;
 }
 
 .imgvision{
@@ -185,6 +206,12 @@ border-bottom: none;
 .jcontainer{
   display: flex;
 }
+.jheading{
+  font-size: 170%;
+  font-weight: bold;
+  color: #eeff00;
+  
+}
 .jimage img{
   margin : 50% 10% 40% 15%;
   height: 350px;
@@ -194,9 +221,10 @@ border-bottom: none;
 }
 .jtext{
   margin: 6% 12% 6% 6%;
-  background: linear-gradient(90deg, rgba(238, 174, 202, 0.699) 0%, rgba(148, 188, 233, 0.658) 100%);
+  background: #0303a4d3;
   padding : 4% 4% 4% 4%;
   border-radius: 15px;
+  color: #ffffff;
 }
 .s1{
   flex :1;
@@ -218,8 +246,8 @@ border-bottom: none;
   position:absolute;
   margin: 10% 22% 10% 22%;
   word-spacing: 4px;
-  background: rgb(138,237,246);
-  background: linear-gradient(90deg, rgba(138,237,246,1) 0%, rgba(96,130,245,0.5214460784313726) 100%);
+  background: #0303a4bc;
+  color:#ffffff;
   padding: 40px 20px 40px 20px;
 }
 
