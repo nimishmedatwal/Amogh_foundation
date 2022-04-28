@@ -265,23 +265,30 @@ body{
 
 }
 #team{
-  background: url("./assests/ourteam.jpg");
-  /* height: 100vh; */
+  background-color: #00005c;
+
+  height: 100vh;
   background-size: cover;
 }
 .teamheading{
   font-family: 'Balsamiq Sans', cursive;
   font-family: 'Cairo', sans-serif;
-  font-size: 200%;
+  font-size: 250%;
   font-weight: bold;
   padding-top: 2%;
+  color: #eeff00;
 }
 .tt{
   display: flex;
 }
 .teammember{
   display: flex;
-  padding : 5% 5% 1% 5%;
+  margin : 5% 5% 1% 5%;
+  padding: 5% 5% 5% 5%;
+  border-radius: 15px;
+  background-color: #54549881;
+  color: #ffffff;
+
 }
 .teammember img{
   height: 300px;
