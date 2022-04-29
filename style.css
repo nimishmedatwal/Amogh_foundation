@@ -18,6 +18,7 @@ body{
     /* background-image: url("assests/background.webp") ; */
     background-size: cover;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 /* Add a black background color to the top navigation */
 .navbar {
@@ -639,38 +640,60 @@ label span:before {
   font-size:15px;
   color: #ffffff;
 }
+
 @media screen and (max-width: 600px) {
   .navbar a{
     color: #ffffff;
   }
-  #navbar{
-    height: 8vh;
+  .overviewtext{
+    margin-right: 5%;
+    font-size: 70%;
+  }
+  .heavy{
+    font-size:110%;
+  }
+  #pp{
+    margin-left: 0px;
+    margin-top: 13%;
+    font-size: 80%;
+  }
+  #gg{
+    font-size: 80%;
+    top:48px;
+    }
+  .navbar{
+    height: 17vh;
   }
   .imgvision{
     height: 45%;
+  }
+  .img_vision{
+    width: 90%;
+    margin-left: 7%;
   }
   #vision{
     display:block;
     height: 100%;
   }
   .vision p{
-    font-size: 20px;
+    font-size: 80%;
     text-align:justify;
     flex: none;
   }
   .mission p{
-    font-size: 20px;
+    font-size: 80%;
     text-align:justify;
   }
   .values p{
-    font-size: 20px;
+    font-size: 80%;
     /* text-align:justify; */
   }
   #DonateNow{
     height: 140vh;
   }
   .donatenow{
-    margin :10% 13% 10% 13%;
+    margin :10% 10% 10% 10%;
+    font-size: 80%;
 
   }
   .img_vision{
@@ -684,6 +707,43 @@ label span:before {
   }
   .form2{
     margin-left:8%
+  }
+  .jcontainer{
+    display: block;
+    padding-bottom: 6%;
+  }
+  #journey{
+    height :fit-content ;
+  }
+  .jimage{
+    margin: 6% 1% 6% 27%;
+    padding-top: 6%;
+  }
+  .jheading{
+    font-size: 150%;
+  }
+  .jtext{
+    font-size: 70%;
+    margin: 6% 6% 0% 6%;
+  }
+  .jimage img{
+    margin: 0% 0% 0% 0%;
+    height: 200px;
+  }
+  .teamheading{
+    font-size: 151%;  
+  }
+  .CSSgal .prevNext a {
+    width: 39px;
+    height: 39px;
+  }
+  .team1{
+    width: 81%;
+  }
+  .CSSgal .bullets > a {
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
   }
   #contactus{
     height: 70vh;
