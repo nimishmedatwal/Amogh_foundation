@@ -731,6 +731,12 @@ label span:before {
     margin: 0% 0% 0% 0%;
     height: 200px;
   }
+  .CSSgal{
+    height: 73%;
+  }
+  #team{
+    height: 61vh;
+  }
   .teamheading{
     font-size: 151%;  
   }
