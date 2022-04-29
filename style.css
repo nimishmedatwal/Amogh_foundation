@@ -737,6 +737,9 @@ label span:before {
   #team{
     height: 61vh;
   }
+  .form{
+    width: 92vw;
+  }
   .teamheading{
     font-size: 151%;  
   }
