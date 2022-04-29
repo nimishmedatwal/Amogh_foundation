@@ -737,6 +737,9 @@ label span:before {
   #team{
     height: 61vh;
   }
+  .qrcode img {
+    margin-top: 9%;
+}
   .form{
     width: 92vw;
   }
