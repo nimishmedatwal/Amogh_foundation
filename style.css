@@ -146,9 +146,7 @@ body{
   display: none;
   transition: background-color 0.6s ease;
 }
-/* #main{
-  height: 100vh;
-} */
+
 .slideshow-container{
   margin-top: 5%;
   position: relative; 
@@ -387,25 +385,19 @@ body{
 #s2:target ~ .bullets >*:nth-child(2) {background: rgba(255, 255, 255,   1);}
 #s3:target ~ .bullets >*:nth-child(3) {background: rgba(255, 255, 255,   1);}
 #s4:target ~ .bullets >*:nth-child(4) {background: rgba(255, 255, 255,   1);}
-/* More slides? Add here more rules */
 
-/* PREV/NEXT CONTAINERS VISIBILITY */
 /* ALL: */
 .CSSgal >s:target ~ .prevNext >* {      visibility: hidden;}
-/* ACTIVE: */
+
 #s1:target ~ .prevNext >*:nth-child(1) {visibility: visible;}
 #s2:target ~ .prevNext >*:nth-child(2) {visibility: visible;}
 #s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
 #s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
-/* More slides? Add here more rules */
-
-/* SLIDER ANIMATION POSITIONS */
 
 #s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
 #s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
 #s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
 #s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
-/* More slides? Add here more rules */
 
 .CSSgal{
   color: #fff;  
@@ -433,9 +425,7 @@ body{
   background-color:#ffffff; 
   text-decoration: none;
   border: none;
-  /* border: solid; */
   border-radius: 16px;
-  /* color: #000000; */
   margin-left: 3%;
 }
 .qrcode{
@@ -448,10 +438,7 @@ body{
   margin : 9% 6% 4% 6%;
   padding : 20px 20px 20px 20px;
   border-radius:15px ;
-  /* border-style: solid; */
-  /* border-color: #00005c; */
   color: #ffffff;
-  /* background: linear-gradient(90deg, rgba(138,237,246,1) 0%, rgba(96, 131, 245, 0.705) 100%); */
   background-color: #15172b;
   font-size: large;
 }
@@ -460,9 +447,7 @@ body{
   background-color: #15172b;
   border-radius: 20px;
   box-sizing: border-box;
-  /* height: 500px; */
   padding: 20px;
-  /* width: 320px; */
   width: 30vw;
   margin : 4% 4% 4% 4%; 
 }
@@ -503,9 +488,6 @@ label input {
   position: absolute;
   left: -9999px;
 }
-/* label input:checked + span {
-  background-color: #d6d6e5;
-} */
 label input:checked + span:before {
   box-shadow: inset 0 0 0 0.4375em #00005c;
 }
@@ -517,9 +499,7 @@ label span {
   transition: 0.25s ease;
   color: #eee;
 }
-/* label span:hover {
-  background-color: #d6d6e5;
-} */
+
 
 label span:before {
   display: flex;
@@ -686,7 +666,6 @@ label span:before {
   }
   .values p{
     font-size: 80%;
-    /* text-align:justify; */
   }
   #DonateNow{
     height: 140vh;
@@ -744,6 +723,9 @@ label span:before {
     background-color: #ffffff;
     background-image: none ;
   }
+  .contact{
+    padding-left: 4%;
+  }
   .form{
     width: 92vw;
   }
@@ -779,17 +761,4 @@ label span:before {
   .rid {
     height: 30vh;
   }
-  /* .contact{
-    height: 0vh;
-  }
-  .details{
-    visibility: hidden;
-    height: 0vh;
-
-  }
-  .num{
-    visibility: hidden;
-    height: 0px;
-  } */
-
 }
