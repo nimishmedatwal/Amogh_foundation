@@ -739,7 +739,11 @@ label span:before {
   }
   .qrcode img {
     margin-top: 9%;
-}
+  }
+  #Donate{
+    background-color: #ffffff;
+    background-image: none ;
+  }
   .form{
     width: 92vw;
   }
